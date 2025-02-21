@@ -3,3 +3,96 @@
   padding: 0;
   margin: 0;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 60px auto;
+  width: 393px;
+  padding: 16px 24px;  
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.16);
+}
+
+h2 {
+  align-self: center;
+  padding: 16px 24px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.5px;
+}
+
+.textInput {
+  width: 280px;
+  height: 40px;
+  border-radius: 6px;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #000000;
+  border: none;
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.16);
+}
+
+.addButton {
+  height: 40px;
+  color: #f9f9f9;
+  background-color: #3C82F6;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 16px;
+  margin-left: 6px;
+}
+
+.tabs {
+  margin: 20px 0;
+}
+
+.tab {
+height: 32px;
+padding: 4px 12px;
+margin-right: 6px;
+border: none;
+border-radius: 6px;
+background: #F3F4F6;
+}
+
+.check {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.checkBox {
+  width: 20px;
+  height: 20px;
+}
+
+.buttons {
+  color: #ef4444;
+  background-color: #fef2f2;
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: 400;
+  border: none;
+  border-radius: 6px;
+  margin-right: 6px;
+}
+
+.taskContainer {
+  width: 345px;
+  color: #000000;
+  background-color: #F9FAFB;
+  padding: 16px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.completed {
+  text-decoration: line-through;
+}
